@@ -4,10 +4,10 @@ public class Camion {
 	private String descripcion;
 	private boolean estado;
 	private String[] camiones;
-	private int [] codigosdecamiones={111,222,333,444,555};
-	private String []patentes={"AA1122","BB2233","CC3344","DD4455","EE5566"};
-	private String []descripiones={"amarillo","rojo","verde","morado","negro"};
-	private boolean [] estados={true,false,true,true,false};
+	public int [] codigosdecamiones={111,222,333,444,555};
+	public String []patentes={"AA1122","BB2233","CC3344","DD4455","EE5566"};
+	public String []descripiones={"amarillo","rojo","verde","morado","negro"};
+	public boolean [] estados={true,false,true,true,false};
 	public Sucursal sucursal=new Sucursal();
 	public Flete flete=new Flete();
 
